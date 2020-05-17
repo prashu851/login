@@ -1,0 +1,13 @@
+{
+    "frames": [
+        {
+            "photo_id":"1",
+            "title":"Mountain view",
+            "url":"https://i.picsum.photos/id/426/300/300.jpg"
+        },{
+            "photo_id":"2",
+            "title":"Flying vulture",
+            "url":"https://i.picsum.photos/id/1024/300/300.jpg"
+        }
+    ]
+}
