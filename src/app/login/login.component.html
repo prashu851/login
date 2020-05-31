@@ -1,28 +1,38 @@
-
-<section class="wrapper">
+<body>
+    <div class="row">
+        <div class="column">
+            <img src="assets/images/logo.jpg" height="100%" width="100%">
+            
+        </div>
+<div class="column">
     <form>
-        <div class="login-form">
+        <div class="login-form"><br>
         <h1 align="center">Sign in</h1>
             <div class="form-fields">
                 <div class="form-input">
                     
-                    <mat-form-field>
+                    <mat-form-field  style="width:250px !important">
                         <mat-label>email</mat-label>
-                        <input matInput type="email" placeholder="Enter email" required>
+                        <input matInput type="email" required>
                     </mat-form-field>
-                </div> 
+                </div><br> 
                 <div class="form-input"> 
-                    <mat-form-field>
+                    <mat-form-field  style="width:250px !important">
                         <mat-label>Password</mat-label>
-                        <input matInput type="password" placeholder="Enter Password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                        <input matInput type="password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                     </mat-form-field>
-                </div>
-                <div class="form-button">
+                </div><br>
+                <div class="forgot">
                     <a href=""><strong>forgot password?</strong></a>
-                    <button mat-raised-button color="primary" type="submit" routerLink="/home">Sign in</button>
+                </div><br>
+                <div class="form-button">
+                    
+                    <button mat-raised-button color="primary" type="submit" style="width:250px" routerLink="/home">Sign in</button>
                     
                 </div>    
             </div>
         </div> 
     </form>
-</section>
+</div>
+</div>
+</body>

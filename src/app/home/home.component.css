@@ -1,0 +1,12 @@
+.container{
+    display : flex;
+    
+}
+.frames{
+    flex-direction: column;
+    flex:wrap;
+    align-items: center;
+}
+
+
+    
